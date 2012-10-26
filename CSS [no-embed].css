@@ -1,0 +1,194 @@
+.container{
+    margin:100px;
+
+}
+#ponylistcontainer { display: none;}
+
+.spawnponylist{
+    position: fixed;
+    left: 130px;
+    top: 100px;
+    overflow:auto;
+    height:230px;
+    width:160px;
+    border-style:solid;
+    border-color:#C6E2FF;
+    border-radius:8px;
+    font:15px arial;
+    background-color:#000000;
+    transition: border-color .2s linear, border-radius .7s ease-in, left .5s;
+    -moz-transition: border-color .2s linear, border-radius .7s ease-in, left .5s;
+    -webkit-transition: border-color .2s linear, border-radius .7s ease-in, left .5s;
+    -o-transition: border-color .2s linear, border-radius .7s ease-in, left .5s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.spawnponybutton{
+    transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    background-color:#000000;
+    border-radius:10px;
+    border-width:50px;
+    border-height:20px;
+    color:#ffffff;
+    text-decoration:none;
+    padding-left:6px;
+    padding-right:6px;
+    cursor:pointer;
+}
+.spawnponybutton:hover{
+    background-color:#D1D119;
+    color:#000000;
+}
+.spawnponylist:hover{
+    border-color:#996633;
+    border-radius:4px;
+
+}
+
+
+
+.set{
+    position: fixed;
+    height: 132px;
+    left: 1px;
+    top: 184px;
+    width: 24px;
+    transition: left 0.1s;
+    -moz-transition: left 0.1s; /* Firefox 4 */
+    -webkit-transition: left 0.1s; /* Safari, Maxthon and Chrome */
+    -o-transition: left 0.1s; /* Opera */
+}
+.showponies_all{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: top 1s;
+    -moz-transition: top 1s; /* Firefox 4 */
+    -webkit-transition: top 1s; /* Safari, Maxthon and Chrome */
+    -o-transition: top 1s; /* Opera */
+}
+.clearponies_all{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: top 1s;
+    -moz-transition: top 1000s; /* Firefox 4 */
+    -webkit-transition: top 1s; /* Safari, Maxthon and Chrome */
+    -o-transition: top 1s; /* Opera */
+}
+.playponies_all{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: top 1s;
+    -moz-transition: top 1s; /* Firefox 4 */
+    -webkit-transition: top 1s; /* Safari, Maxthon and Chrome */
+    -o-transition: top 1s; /* Opera */
+}
+.pauseponies_all{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: top 1s;
+    -moz-transition: top 1s; /* Firefox 4 */
+    -webkit-transition: top 1s; /* Safari, Maxthon and Chrome */
+    -o-transition: top 1s; /* Opera */
+}
+.infoponies_button{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: left 0.4s, top 0.4s;
+    -moz-transition: left  0.4s, top 0.4s; /* Firefox 4 */
+    -webkit-transition: left 0.4s, top 0.4s; /* Safari, Maxthon and Chrome */
+    -o-transition: left, top 0.4s; 0.4s; /* Opera */
+}.randompony_button{
+    position:absolute;
+    top: -9x;
+    padding:0px 5px;
+    margin:0px;
+    transition: left 0.4s, top 0.9s;
+    -moz-transition: left  0.4s, top 0.9s; /* Firefox 4 */
+    -webkit-transition: left 0.2s, top 0.9s; /* Safari, Maxthon and Chrome */
+    -o-transition: left 0.2, top 0.4s; /* Opera */
+}
+.thissource_button{
+    position:absolute;
+    padding:1px 5px;
+    margin:0px;
+    transition: left 0.1s, top 0.9s;
+    -moz-transition: left 0.1s, top 0.9s; /* Firefox 4 */
+    -webkit-transition: left 0.1s, top 0.9s; /* Safari, Maxthon and Chrome */
+    -o-transition: left 0.1, top 0.9s; /* Opera */
+}.removeponies_all{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: left 0.1s, top 0.9s;
+    -moz-transition: left 0.1s, top 0.9s; /* Firefox 4 */
+    -webkit-transition: left 0.1s, top 0.9s; /* Safari, Maxthon and Chrome */
+    -o-transition: left 0.1, top 0.9s; /* Opera */
+}
+.listponies{
+    position:absolute;
+    padding:0px 10px;
+    transition: left 0.1s, top 0.4s;
+    -moz-transition: left  0.1s, top 0.4s; /* Firefox 4 */
+    -webkit-transition: left 0.1s, top 0.4s; /* Safari, Maxthon and Chrome */
+    -o-transition: top 0.1s; 0.4s; /* Opera */
+}
+.default{
+    position:absolute;
+    padding:2px 10px;
+    margin:0px;
+    transition: left 0.2s;
+    -moz-transition: left 0.2s; /* Firefox 4 */
+    -webkit-transition: left 0.2s; /* Safari, Maxthon and Chrome */
+    -o-transition: left 0.2s; /* Opera */
+    z-index:12;
+}
+.set:hover .showponies_all{
+    top: 20px;
+}
+.set:hover .clearponies_all{
+    top: 40px;
+}
+.set:hover .playponies_all{
+    top: 60px;
+}
+.set:hover .pauseponies_all{
+    top: 80px;
+}
+.set:hover .removeponies_all{
+    top: -20px;
+}
+.set:hover .infoponies_button{
+    left:69px;
+    top:-20px;
+}
+.set:hover .randompony_button{
+    left:58px;
+}
+.set:hover .thissource_button{
+    left:54px;
+    top:22px;
+}
+.set:hover .listponies{
+    left:40px;
+    top:40px;
+}
+.container:hover .set{
+    left:5px;
+}
+.container:hover .default{
+    left:-5px;
+}
+?
