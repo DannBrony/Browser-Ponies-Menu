@@ -27,7 +27,7 @@ You can thank [_Connorcpu_](https://connorcpu.net/) for making this awesome(and 
 Ideas, requests and feedback
 ===================
 If you have any of these, you can:
-* Shoot an email to [dann@anyponycom](mailto:dann@anypony.com).
+* Shoot an email to [dann@anypony.com](mailto:dann@anypony.com).
 * [Tweet to me](https://twitter.com/Dann404).
 * [Add me on Skype](skype:*yellowwinds?add) and send me an IM.<br>
 Or perhaps just fork the project and make a pull request.
